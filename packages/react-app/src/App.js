@@ -17,13 +17,13 @@ const App = () => {
           <img
             src={uniswapLogo}
             alt="uniswap-logo"
-            className="w-16 h-16 object-contain"
+            className="w-20 h-20 object-contain"
           />
           <WalletButton />
         </header>
 
         <div className={styles.exchangeContainer}>
-          <h1 className={styles.headTitle}>Uniswap 2.0</h1>
+          <h1 className={styles.headTitle} style={{textAlign: 'center'}}>Open Investment</h1>
           <p className={styles.subTitle}>Exchange tokens in seconds</p>
 
           <div className={styles.exchangeBoxWrapper}>
